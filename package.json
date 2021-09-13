@@ -1,21 +1,22 @@
 {
-    "name": "ts-project",
+    "name": "ts-common",
     "version": "1.0.0",
-    "description": "TS project template",
+    "description": "Typescript common and web utils",
     "main": "dist/index.js",
     "scripts": {
         "start": "ts-node-dev --respawn --transpile-only src/index.ts",
         "build": "rm -rf dist && tsc",
-        "serve": "npm run build && node dist/index.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
         "type": "git",
-        "url": "https://git.cubetiqs.com/CUBETIQ/ts-project.git"
+        "url": "https://git.cubetiqs.com/CUBETIQ/ts-common.git"
     },
     "keywords": [
-        "TypeScript",
-        "Nodejs"
+        "Typescript",
+        "Nodejs",
+        "Common",
+        "Utils"
     ],
     "author": "Sambo Chea <sombochea@cubetiqs.com>",
     "license": "ISC",
