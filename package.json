@@ -1,5 +1,5 @@
 {
-    "name": "ts-common",
+    "name": "cubetiq-ts-common",
     "version": "1.0.0",
     "description": "Typescript common and web utils",
     "main": "dist/index.js",
