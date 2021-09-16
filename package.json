@@ -5,7 +5,8 @@
     "main": "dist/index.js",
     "scripts": {
         "start": "tsc -w",
-        "build": "rm -rf dist && tsc"
+        "build": "rm -rf dist && tsc",
+        "prepare": "husky install"
     },
     "repository": {
         "type": "git",
